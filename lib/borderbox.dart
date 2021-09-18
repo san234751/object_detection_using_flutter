@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
-class BndBox extends StatelessWidget {
+class BorderBox extends StatelessWidget {
   final List<dynamic> results;
   final int previewH;
   final int previewW;
   final double screenH;
   final double screenW;
 
-  BndBox(
+  BorderBox(
     this.results,
     this.previewH,
     this.previewW,
