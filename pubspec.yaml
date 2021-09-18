@@ -49,8 +49,6 @@ flutter:
   assets:
    - asset/ssd_mobilenet.tflite
    - asset/ssd_mobilenet.txt
-   - asset/yolov2_tiny.tflite
-   - asset/yolov2_tiny.txt
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
