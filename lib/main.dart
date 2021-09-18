@@ -5,7 +5,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:tflite/tflite.dart';
 import 'dart:math' as math;
 import 'camera.dart';
-import 'bndbox.dart';
+import 'borderbox.dart';
 
 List<CameraDescription> cameras;
 const String ssd = "SSD MobileNet";
@@ -126,7 +126,7 @@ class _CamerawState extends State<Cameraw> {
             _model,
             setRecognitions,
           ),
-          BndBox(
+          BorderBox(
             _recognitions == null ? [] : _recognitions,
             math.max(_imageHeight, _imageWidth),
             math.min(_imageHeight, _imageWidth),
